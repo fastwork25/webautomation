@@ -1,0 +1,29 @@
+{
+  "name": "onlyoffice",
+  "version": "1.0.0",
+  "description": "onlyoffice backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldAdd/onlyoffice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronaldAdd/onlyoffice/issues"
+  },
+  "homepage": "https://github.com/ronaldAdd/onlyoffice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "puppeteer": "^24.15.0"
+  }
+}
